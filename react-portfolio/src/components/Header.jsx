@@ -1,3 +1,5 @@
+import './Header.css'
+
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Header() {
     return (
