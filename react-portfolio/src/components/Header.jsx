@@ -1,14 +1,14 @@
-import './Header.css'
+import 'tachyons';
 
 // Whenever we try to render an array containing JSX, React knows to render each JSX element separately
 function Header() {
     return (
-      <ul className="header-ul">
-          <li className="list-item">Michael LeBlanc</li>
-          <li className="list-item">About Me</li>
-          <li className="list-item">Portfolio</li>
-          <li className="list-item">Contact</li>
-          <li className="list-item">Resume</li>
+      <ul className="flex pl0">
+          <li className="ma5 pl0">Michael LeBlanc</li>
+          <li className="ma5">About Me</li>
+          <li className="ma5">Portfolio</li>
+          <li className="ma5">Contact</li>
+          <li className="ma5">Resume</li>
       </ul>
     );
   }
