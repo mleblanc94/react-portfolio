@@ -6,8 +6,8 @@ import linkedinLogo from '../assets/linkedinLogo.png';
 function About() {
     return (
         <div className="flex center bg-light-green justify-center">
-            <a href=""><img src={githubLogo} alt="" className="h3 w3 bg-white ma2"></img></a>
-            <a href=""><img src={linkedinLogo} alt="" className="h3 w3 bg-white ma2"></img></a>
+            <a href="https://github.com/mleblanc94"><img src={githubLogo} alt="Github Logo" className="h3 w3 bg-white ma2"></img></a>
+            <a href="https://www.linkedin.com/in/michael-leblanc-a868869a/"><img src={linkedinLogo} alt="LinkedIn Logo" className="h3 w3 bg-white ma2"></img></a>
 </div>
     );
   }
