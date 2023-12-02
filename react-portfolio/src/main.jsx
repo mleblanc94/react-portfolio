@@ -1,12 +1,10 @@
 import ReactDOM from 'react-dom/client';
-import { createBrowserRouter, RouterProvider } from 'react-router';
-import 'techyons';
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+// import ReactDOM from 'react-dom/client'
+import App from './App'
 import './index.css'
 
-import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
 import ContactPage from './pages/ContactPage';
 import ResumePage from './pages/ResumePage';
