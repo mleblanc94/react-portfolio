@@ -1,6 +1,8 @@
+import 'tachyons';
+
 export default function ResumePage() {
     return (
-        <div className="pa4 pv5 mt0 bg-light-green">
+        <div className="pa4 pv5 mt0 bg-light-green f4 lh-copy pl5">
         <h2>Resume</h2>
         <h6><a rel="noreferrer" target="_blank" href="../assets/Resume.pdf" >Download my resume</a></h6>
         <h3>Front-end Proficiencies</h3>
