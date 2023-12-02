@@ -1,0 +1,37 @@
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensures two projects per row */
+  }
+
+  .project-card {
+    /* Your default card styles */
+  }
+  
+  .project-card.hovered {
+    /* Your styles when hovered */
+  }
+  
+  .github-link img {
+    filter: brightness(0) invert(1); /* This inverts the colors of the image (white to black and vice versa) */
+  }
+  
+  .github-link:hover img {
+    filter: brightness(10) invert(1); /* Adjust the brightness for the desired hover effect */
+  }
+  
+  /* Additional styles for the content when hovered */
+  .hover-content {
+    display: none; /* Hide by default */
+  }
+  
+  .project-card:hover .hover-content {
+    display: flex; /* Show when the card is hovered */
+    flex-direction: column;
+  }
+  
+  /* Additional styles for text color when hovered */
+  .project-card:hover h3,
+  .project-card:hover p {
+    color: white; /* Change the text color to white when hovered */
+  }
