@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 // import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
+import 'tachyons';
 
 import AboutPage from './pages/AboutPage';
 import PortfolioPage from './pages/PortfolioPage';
@@ -17,6 +18,10 @@ const router = createBrowserRouter([
     children: [
       {
         index: true,
+        element: <AboutPage />,
+      },
+      {
+        path: 'about',
         element: <AboutPage />,
       },
       {
