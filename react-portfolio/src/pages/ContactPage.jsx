@@ -1,19 +1,3 @@
-// export default function ContactPage() {
-//     return (
-//         <div className="pa4 pv3 mt0 bg-light-green">
-//         <h2 className="sans-serif f2 lh-copy">Contact</h2>
-//         <h6 className="sans-serif f4 lh-copy ma2">Name:</h6>
-//         <input type="text" className="w-40"/>
-//         <h6 className="sans-serif f4 lh-copy ma2">Email address:</h6>
-//         <input type="text" className="w-40" />
-//         <h6 className="sans-serif f4 lh-copy ma2">message:</h6>
-//         <input type="text" className="border-box hover-black w-40 h5"/>
-//         <br></br>
-//         <button className="w-10 h2 br3 ma1 bg-blue white link dim black b">Submit</button>
-//         </div>
-//     );
-//   }
-
 import React, { useState } from 'react';
 
 const ContactPage = () => {
