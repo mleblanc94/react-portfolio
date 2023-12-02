@@ -1,10 +1,24 @@
 import 'tachyons';
+import Resume from '../assets/Resume.pdf';
 
 export default function ResumePage() {
+    const downloadResume = () => {
+        const link = document.createElement('a');
+        link.href = Resume; // Update the path to your Resume.pdf file
+        link.download = 'Resume.pdf'; // Specify the downloaded file's name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
+      const linkStyles = {
+        cursor: 'pointer',
+      };
+
     return (
-        <div className="pa4 pv5 mt0 bg-light-green f4 lh-copy pl5">
+        <div className="pa4 pv5 mt0 bg-light-green f4 lh-copy 5">
         <h2>Resume</h2>
-        <h6><a rel="noreferrer" target="_blank" href="../assets/Resume.pdf" >Download my resume</a></h6>
+        <h6><a rel="noreferrer" style={linkStyles} cursor="pointer" onClick={downloadResume}>Download my resume</a></h6>
         <h3>Front-end Proficiencies</h3>
         <ul>
             <li>HTML</li>
